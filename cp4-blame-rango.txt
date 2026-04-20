@@ -1,0 +1,11 @@
+git blame -L '/def restar/,/^$/' cacluladora.py
+10dffd66 (Layton Bristow 2026-04-20 08:30:00 +0200 4) def restar(a, b):
+49954820 (Layton Bristow 2026-04-20 08:33:06 +0200 5)     return a - b - 1 # bug intencionado
+d5c7d7f7 (Layton Bristow 2026-04-20 08:31:50 +0200 6)
+
+(el comando que he usado asume que la función termina en la prima línea vacía)
+
+===
+
+Este comando es muy útil si queremos ver modificaciones al código en una
+función definida sin tener que memorizar líneas del archivo.

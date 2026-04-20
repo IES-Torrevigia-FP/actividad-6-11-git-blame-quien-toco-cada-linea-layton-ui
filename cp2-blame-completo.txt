@@ -1,0 +1,21 @@
+salida de git blame cacluladora.py -n
+
+10dffd66  1 (Layton Bristow 2026-04-20 08:30:00 +0200  1) def sumar(a, b):
+10dffd66  2 (Layton Bristow 2026-04-20 08:30:00 +0200  2)     return a + b
+10dffd66  3 (Layton Bristow 2026-04-20 08:30:00 +0200  3) 
+10dffd66  4 (Layton Bristow 2026-04-20 08:30:00 +0200  4) def restar(a, b):
+49954820  5 (Layton Bristow 2026-04-20 08:33:06 +0200  5)     return a - b - 1 # bug intencionado
+d5c7d7f7  6 (Layton Bristow 2026-04-20 08:31:50 +0200  6) 
+d5c7d7f7  7 (Layton Bristow 2026-04-20 08:31:50 +0200  7) def multiplicar(a, b):
+0934ac06  8 (Layton Bristow 2026-04-20 08:34:01 +0200  8)     return a * b
+0934ac06  9 (Layton Bristow 2026-04-20 08:34:01 +0200  9) 
+0934ac06 10 (Layton Bristow 2026-04-20 08:34:01 +0200 10) # TODO: añadir función dividir
+
+===
+
+explicaición muy breve, cada línea contiene: 
+hash del último commit que modificó la línea.
+número de línea (opción -n)
+autor
+fecha y hora de modificación con zona horaria
+línea en su estado actual

@@ -1,0 +1,31 @@
+49954820 (Layton Bristow 2026-04-20 08:33:06 +0200  5)     return a - b - 1 # bug intencionado
+
+===
+
+git show 49954820
+commit 4995482045705c89cbc5a0f8ea373ee9db53b5ea
+Author: Layton Bristow <layton@elltecnico.com>
+Date:   Mon Apr 20 08:33:06 2026 +0200
+
+    modificar resta (BUG)
+
+diff --git a/cacluladora.py b/cacluladora.py
+index 7c63b87..96c76db 100644
+--- a/cacluladora.py
++++ b/cacluladora.py
+@@ -2,7 +2,7 @@ def sumar(a, b):
+     return a + b
+ 
+ def restar(a, b):
+-    return a - b
++    return a - b - 1 # bug intencionado
+ 
+ def multiplicar(a, b):
+     return a * b
+\ No newline at end of file
+
+===
+
+Aquí podemos ver mucha información sobre los cambios que se han hecho en este commit. 
+autor, fecha, ...
+qué líneas se han añadido (+) o eliminado (-)...

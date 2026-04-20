@@ -1,0 +1,8 @@
+salida de git log --oneline
+
+0934ac0 (HEAD -> main) añadir TODO: función dividir
+4995482 modificar resta (BUG)
+d5c7d7f añadir funcion multiplicar
+10dffd6 añadir funciones de sumar y restar
+26aedb6 (origin/main, origin/HEAD) add deadline
+1628555 Initial commit
